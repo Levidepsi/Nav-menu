@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+
+li{
+    display: block;
+}
+
+.menu-page{
+    width: 60%;
+}
+
+
+
+
+.menu-page ul{ 
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+
+.menu-page ul li.menu-item a{
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    display: block;
+    color: white;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.menu-page ul li.menu-item a:hover{
+    background-color:#333;
+}
+
+.container{
+    background-image: linear-gradient(gray,white);
+    height: 10vh;
+
+}
+
+.page{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    background: #ffffcc;
+}
+
+@media(max-width: 1000px) {
+    .page{
+       grid-template-columns: repeat(2 , auto);
+       width: 100%;
+    }
+}
+
+@media(max-width: 800px) {
+    .page{
+       grid-template-columns: repeat(1 , auto);
+    }
+}   
+.page p {
+    cursor: pointer;
+}
+
+
+.card:hover:nth-child(1){
+    transition: 0.5s;
+    margin: 2.8rem;
+    transition-delay: 50ms;
+    box-shadow: #333;
+    padding: 1.8rem;
+    
+}
+
+.card:hover:nth-child(2){
+    transition: 0.5s;
+    margin: 2.8rem;
+    transition-delay: 50ms;
+    box-shadow: teal;
+    padding: 1.8rem;
+    
+}
+.card:hover:nth-child(3){
+    transition: 0.5s;
+    margin: 2.8rem;
+    transition-delay: 50ms;
+    box-shadow: teal;
+    padding: 1.8rem;
+    
+}
+.card:hover:nth-child(4){
+    transition: 0.5s;
+    margin: 2.8rem;
+    transition-delay: 50ms;
+    box-shadow: teal;
+    padding: 1.8rem;
+    
+}
+.card:hover:nth-child(5){
+    transition: 0.5s;
+    margin: 2.8rem;
+    transition-delay: 50ms;
+    box-shadow: teal;
+    padding: 1.8rem;
+    
+}
+.card:hover:nth-child(6){
+    transition: 0.5s;
+    margin: 2.8rem;
+    transition-delay: 50ms;
+    box-shadow: teal;
+    padding: 1.8rem;
+}
+
+.card {
+    text-decoration: none;  
+    text-align: center;
+    padding: 20px;
+    display: block;
+    position: relative;
+    border: 1px solid #333;
+    margin: 50px;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    
+
+}
+
+.card a{
+    text-decoration: none;
+    color: #0099ff;
+}
+
+#review{
+    position: absolute;
+    font-family: sans-serif;
+    color: #0099ff;
+}
+
